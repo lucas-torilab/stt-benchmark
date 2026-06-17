@@ -24,6 +24,7 @@ Benchmark results on 1000 samples from the `pipecat-ai/smart-turn-data-v3.1-trai
 | NVIDIA | Nemotron 3.5 ASR (multilingual) | 99.6% | 62.0% | 4.54% | 4.58% | 236ms | 253ms | 266ms |
 | OpenAI | gpt-4o-transcribe | 99.3% | 75.9% | 3.24% | 3.06% | 637ms | 965ms | 1655ms |
 | Smallest AI | pulse | 100.0% | 72.4% | 2.30% | 2.37% | 398ms | 533ms | 1593ms |
+| Soniox | stt-rt-v5 | 99.8% | 83.3% | 1.34% | 1.27% | 260ms | 305ms | 313ms |
 | Soniox | stt-rt-v4 | 99.8% | 84.1% | 1.25% | 1.29% | 249ms | 281ms | 310ms |
 | Speechmatics | N/A | 99.7% | 83.2% | 1.40% | 1.07% | 495ms | 676ms | 736ms |
 <!-- RESULTS_TABLE:END -->
@@ -179,7 +180,7 @@ This gives accuracy metrics that reflect real-world impact on downstream LLM app
 
 ## Supported Services
 
-`assemblyai`, `assemblyai_u3_rt_pro`, `aws`, `azure`, `cartesia`, `cartesia_ink2`, `deepgram`, `elevenlabs`, `elevenlabs_http`, `fal`, `gladia`, `google`, `gradium`, `groq`, `mistral`, `nvidia`, `nvidia_sagemaker`, `openai`, `openai_realtime`, `sarvam`, `sarvam_saaras_v3`, `smallest`, `soniox`, `speechmatics`, `whisper`, `xai`
+`assemblyai`, `assemblyai_u3_rt_pro`, `aws`, `azure`, `cartesia`, `cartesia_ink2`, `deepgram`, `elevenlabs`, `elevenlabs_http`, `fal`, `gladia`, `google`, `gradium`, `groq`, `mistral`, `nvidia`, `nvidia_sagemaker`, `openai`, `openai_realtime`, `sarvam`, `sarvam_saaras_v3`, `smallest`, `soniox`, `soniox_stt_rt_v5`, `speechmatics`, `whisper`, `xai`
 
 Each key is one (vendor, model) pair — a vendor with multiple models has multiple keys (e.g. `cartesia` / `cartesia_ink2`, `assemblyai` / `assemblyai_u3_rt_pro`). To add a model, see [docs/adding-models.md](docs/adding-models.md). See `env.example` for required API keys.
 

@@ -39,6 +39,7 @@ class ServiceName(str, Enum):
     SMALLEST = "smallest"
     SPEECHMATICS = "speechmatics"
     SONIOX = "soniox"
+    SONIOX_STT_RT_V5 = "soniox_stt_rt_v5"
     WHISPER = "whisper"
     XAI = "xai"
 
