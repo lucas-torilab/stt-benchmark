@@ -405,6 +405,21 @@ def create_soniox() -> FrameProcessor:
     )
 
 
+# stt-rt-v5: supersedes the stt-rt-v4 entry above.
+def create_soniox_stt_rt_v5() -> FrameProcessor:
+    from pipecat.services.soniox.stt import SonioxSTTService
+
+    return SonioxSTTService(
+        api_key=_get_env("SONIOX_API_KEY"),
+        settings=SonioxSTTService.Settings(
+            model="stt-rt-v5",
+            language_hints=[Language.EN],
+            language_hints_strict=True,
+        ),
+        vad_force_turn_endpoint=True,
+    )
+
+
 def create_speechmatics() -> FrameProcessor:
     from pipecat.services.speechmatics.stt import SpeechmaticsSTTService, TurnDetectionMode
 
@@ -588,6 +603,13 @@ STT_SERVICES: dict[str, ServiceDefinition] = {
         factory=create_soniox,
         vendor="Soniox",
         model_label="stt-rt-v4",
+        required_env_vars=["SONIOX_API_KEY"],
+        is_current=False,  # superseded by soniox_stt_rt_v5
+    ),
+    "soniox_stt_rt_v5": ServiceDefinition(
+        factory=create_soniox_stt_rt_v5,
+        vendor="Soniox",
+        model_label="stt-rt-v5",
         required_env_vars=["SONIOX_API_KEY"],
     ),
     "speechmatics": ServiceDefinition(

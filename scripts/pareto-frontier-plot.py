@@ -145,11 +145,42 @@ def plot_pareto_frontier(
 
     # Add bottom panel for Pareto frontier services
     if pareto_optimal:
+        # Build the per-service stat strings (README labels are display-ready).
+        service_strs = [
+            f"{name}: {ttfb:.0f}ms, WER {wer:.2f}%" for name, ttfb, wer in pareto_optimal
+        ]
+
+        # Wrap the service list across multiple lines so it stays inside the box.
+        sep = "    "
+        max_chars = 128  # approx chars that fit on one line at fontsize 10 in the box width
+        wrapped_lines: list[str] = []
+        current: list[str] = []
+        current_len = 0
+        for s in service_strs:
+            add_len = len(s) + (len(sep) if current else 0)
+            if current and current_len + add_len > max_chars:
+                wrapped_lines.append(sep.join(current))
+                current = [s]
+                current_len = len(s)
+            else:
+                current.append(s)
+                current_len += add_len
+        if current:
+            wrapped_lines.append(sep.join(current))
+
+        # Lay the box out from a fixed top, growing downward with the line count.
+        box_top = 0.155
+        header_y = 0.135
+        desc_y = 0.113
+        services_top_y = 0.090
+        line_h = 0.024
+        box_bottom = services_top_y - (len(wrapped_lines) - 1) * line_h - 0.022
+
         # Draw background box (positioned below the chart with gap)
         box = FancyBboxPatch(
-            (0.02, 0.02),
+            (0.02, box_bottom),
             0.96,
-            0.13,
+            box_top - box_bottom,
             boxstyle="round,pad=0.005,rounding_size=0.01",
             facecolor="#f0f7f0",
             edgecolor="#4a7c4a",
@@ -162,7 +193,7 @@ def plot_pareto_frontier(
         # Header
         fig.text(
             0.04,
-            0.13,
+            header_y,
             f"Pareto Frontier Services ({ttfb_label})",
             fontsize=11,
             fontweight="bold",
@@ -172,29 +203,24 @@ def plot_pareto_frontier(
         # Description
         fig.text(
             0.04,
-            0.10,
+            desc_y,
             "These services offer the best trade-off between latency and accuracy "
             "(no other service is better on both metrics):",
             fontsize=9,
             color="#555555",
         )
 
-        # List Pareto optimal services with stats
-        service_strs = []
-        for name, ttfb, wer in pareto_optimal:
-            # README labels are already display-ready; use them verbatim.
-            service_strs.append(f"{name}: {ttfb:.0f}ms, WER {wer:.2f}%")
-
-        # Display services in a wrapped format
-        services_text = "    ".join(service_strs)
-        fig.text(
-            0.04,
-            0.05,
-            services_text,
-            fontsize=10,
-            fontweight="medium",
-            color="#333333",
-        )
+        # List Pareto optimal services with stats, wrapped across lines.
+        for i, line in enumerate(wrapped_lines):
+            fig.text(
+                0.04,
+                services_top_y - i * line_h,
+                line,
+                fontsize=10,
+                fontweight="medium",
+                color="#333333",
+                va="top",
+            )
 
     # Save
     plt.savefig(output_path, dpi=150, bbox_inches="tight")
