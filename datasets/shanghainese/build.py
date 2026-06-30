@@ -33,7 +33,7 @@ PCM_DIR.mkdir(exist_ok=True)
 TARGET_RATE = 16000
 
 LANGUAGE = "Shanghainese (Wu Chinese)"
-LANGUAGE_CODE = "wuu"
+LANGUAGE_CODE = "wuu"  # ISO 639-3 for Wu Chinese
 
 rows = [json.loads(line) for line in (HERE / "metadata.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
 
@@ -54,9 +54,10 @@ def convert(sample_id: str) -> float:
     return len(pcm) / 2 / TARGET_RATE
 
 
-# Convert audio + refresh duration_seconds from the actual PCM.
+# Convert audio + refresh duration_seconds from the actual PCM; enforce language code.
 for r in rows:
     r["duration_seconds"] = round(convert(r["sample_id"]), 3)
+    r["language"] = LANGUAGE_CODE
 
 # ground_truth.jsonl
 with (HERE / "ground_truth.jsonl").open("w", encoding="utf-8") as f:
