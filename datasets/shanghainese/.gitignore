@@ -1,0 +1,6 @@
+# Audio binaries and the packaged HF dataset live on the Hugging Face Hub
+# (lvhoang/shanghainese-stt-eval), not in git. Regenerate locally with build.py
+# after fetching the originals.
+audio_m4a/
+audio_pcm/
+hf_dataset/

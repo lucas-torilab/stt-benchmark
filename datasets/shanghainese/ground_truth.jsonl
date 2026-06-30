@@ -1,0 +1,59 @@
+{"type": "header", "model": "human-script", "run_id": "shanghainese-v1", "num_samples": 58, "language": "Shanghainese (Wu Chinese)", "language_code": "wuu", "source": "Shanghai Chinese recording set (script-derived references)"}
+{"type": "sample", "sample_id": "shanghainese-001", "duration_seconds": 4.779, "transcription": "侬明朝有辰光伐？", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-002", "duration_seconds": 4.864, "transcription": "阿拉下个礼拜一道去杭州。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-003", "duration_seconds": 2.816, "transcription": "伊今朝勿来。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-004", "duration_seconds": 3.925, "transcription": "我今朝已经吃过了。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-005", "duration_seconds": 4.267, "transcription": "明朝下半日送过来。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-006", "duration_seconds": 4.608, "transcription": "夜到七点钟打电话拨我。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-007", "duration_seconds": 3.499, "transcription": "现在啥辰光？", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-008", "duration_seconds": 3.755, "transcription": "格个哪能弄？", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-009", "duration_seconds": 4.267, "transcription": "侬要买啥物事？", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-010", "duration_seconds": 3.584, "transcription": "格个勿是我个。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-011", "duration_seconds": 3.669, "transcription": "勿要加糖。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-012", "duration_seconds": 3.84, "transcription": "我要勿辣个。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-013", "duration_seconds": 3.584, "transcription": "我勿曾吃过。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-014", "duration_seconds": 2.987, "transcription": "屋里呒没人。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-015", "duration_seconds": 3.243, "transcription": "格个勿好碰。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-016", "duration_seconds": 4.011, "transcription": "格个药勿要再吃了。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-017", "duration_seconds": 5.12, "transcription": "文件发拨我，勿要发拨伊。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-018", "duration_seconds": 5.035, "transcription": "糖勿要加，牛奶也勿要加。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-019", "duration_seconds": 3.243, "transcription": "外头落雨了。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-020", "duration_seconds": 3.243, "transcription": "我勒浪汏衣裳。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-021", "duration_seconds": 4.608, "transcription": "小囡昨日拨伊拉吃生活了。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-022", "duration_seconds": 4.608, "transcription": "我爬楼梯老吃力个。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-023", "duration_seconds": 3.755, "transcription": "格个菜老好吃个。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-024", "duration_seconds": 4.437, "transcription": "伊今朝作兴勿来了。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-025", "duration_seconds": 3.243, "transcription": "等一歇歇再走。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-026", "duration_seconds": 3.243, "transcription": "我迟眼到。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-027", "duration_seconds": 3.499, "transcription": "下个礼拜一去。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-028", "duration_seconds": 4.096, "transcription": "下半日两点钟开会。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-029", "duration_seconds": 6.059, "transcription": "下半日三点去接小囡，勿要忘记。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-030", "duration_seconds": 7.168, "transcription": "夜到七点钟打拨我，勿是明朝朝晨七点钟。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-031", "duration_seconds": 6.315, "transcription": "我明朝下半日来，勿是明朝朝晨来。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-032", "duration_seconds": 3.499, "transcription": "请等我十分钟。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-033", "duration_seconds": 4.523, "transcription": "我要三个，勿是十三个。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-034", "duration_seconds": 5.461, "transcription": "四点钟来，勿是十点钟来。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-035", "duration_seconds": 3.328, "transcription": "侬吃过饭了伐？", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-036", "duration_seconds": 4.267, "transcription": "侬哪能到个？", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-037", "duration_seconds": 4.096, "transcription": "侬哪能勿去？", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-038", "duration_seconds": 4.523, "transcription": "侬要茶还是咖啡？", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-039", "duration_seconds": 6.827, "transcription": "格个勿是侬个，咁是啥人个？", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-040", "duration_seconds": 4.949, "transcription": "我讲个闲话侬听得懂伐？", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-041", "duration_seconds": 5.547, "transcription": "我胸口勿痛，只有点闷。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-042", "duration_seconds": 3.584, "transcription": "药我还勿曾吃。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-043", "duration_seconds": 6.485, "transcription": "我勿好吃虾，吃了身浪向要发出来个。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-044", "duration_seconds": 4.693, "transcription": "老人家昨日跤脱了。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-045", "duration_seconds": 4.181, "transcription": "出门以前要拿煤气关脱。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-046", "duration_seconds": 4.864, "transcription": "小囡一个人勒浪屋里。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-047", "duration_seconds": 5.376, "transcription": "小囡吓着了，不过呒没受伤。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-048", "duration_seconds": 6.229, "transcription": "我胸口勿痛，不过呼吸有点吃力。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-049", "duration_seconds": 6.4, "transcription": "药我已经吃过了，勿好再吃一趟。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-050", "duration_seconds": 6.059, "transcription": "勿是紧急情况，不过我今朝想去看医生。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-conv-1", "duration_seconds": 14.507, "transcription": "侬明朝有辰光伐？ 有个。啥辰光？ 下半日两点钟。 好个，明朝下半日两点钟见。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-conv-2", "duration_seconds": 14.336, "transcription": "帮我买杯咖啡，勿要加糖。 好个。牛奶要伐？ 牛奶也勿要。 晓得了，糖搭牛奶侪勿加。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-conv-3", "duration_seconds": 15.36, "transcription": "小王搭小李一道来了。伊讲伊明朝勿来。 侬讲个“伊”是小王还是小李？ 是小李。 好个，我晓得了。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-conv-4", "duration_seconds": 16.128, "transcription": "伊明朝作兴勿来。 还勿确定是伐？ 对个，要到夜到再晓得。 好个，确定了以后告诉我。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-conv-5", "duration_seconds": 24.576, "transcription": "小囡一个人勒浪屋里。 小囡几岁？现在安全伐？有大人可以过去伐？ 伊六岁，伊外婆马上过去。 好个，最好叫大人快点过去。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-conv-6", "duration_seconds": 16.896, "transcription": "药我还勿曾吃。 医生叫侬啥辰光吃？ 夜到八点钟吃。 好个，现在先勿要吃，夜到八点钟再吃。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-conv-7", "duration_seconds": 14.421, "transcription": "我明朝下半日来。 侬是明朝朝晨来，对伐？ 勿是朝晨，是下半日。 晓得了，明朝下半日来。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
+{"type": "sample", "sample_id": "shanghainese-conv-8", "duration_seconds": 12.971, "transcription": "我要勿辣个。 侬要辣一点个，对伐？ 勿是，我一点也勿要辣。 好个，完全勿辣。", "generated_at": "2026-06-30T00:00:00Z", "verified_by": null}
