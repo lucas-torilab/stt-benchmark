@@ -44,6 +44,10 @@ The dataset itself (and its in-repo source) lives at
    mapped to the same test-vector categories as the recordings. Vendor-capability
    analysis and stated claims — **hypotheses to validate against** the empirical
    eval set, not measured WER.
+5. **[Related datasets & benchmarks](related-datasets.md)** — external public
+   resources for Wu Chinese STT, starting with **WenetSpeech-Wu** (~8,000 h corpus
+   + manually curated Wu benchmark and models) — large-scale training/eval data
+   that complements this set.
 
 ## Pipeline at a glance
 
